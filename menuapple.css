@@ -109,6 +109,39 @@ gap: 60px;
           color: #86868b;
           margin: 0;
         }
+#anuncio-chato {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff3b30;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    max-width: 300px;
+    font-family: sans-serif;
+}
+
+#anuncio-chato p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+#botao-fechar {
+    background-color: #ffffff;
+    color: #ff3b30;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botao-fechar:hover {
+    background-color: #f0f0f0;
+}
+
     @media (max-width: 768px) {
     
     #menu ul {
